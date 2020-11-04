@@ -4,6 +4,7 @@ class Main {
    int [] numbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
    //Create an array of 15 elements
    String [] names = {"Heba", "Shibil", "Victor", "Journey", "Ava", "Anthony", "David", "Amina","Abudallah", "Ibrahim", "Lena", "Malak", "Yamama", "Omaima", "Haneen"}; 
+   //Use a For loop to loop through the String array
 
   }
 }
