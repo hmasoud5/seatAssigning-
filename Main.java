@@ -13,6 +13,6 @@ class Main {
      System.out.println( "Enter you name" );
      names[i] = scan.next();
    }
-  
+  while 
   }
 }
