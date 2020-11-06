@@ -15,6 +15,7 @@ class Main {
     }
     int i = 0;
     while (i < names.length) {
+      //seatNumbers is less than or equal to the length of names which is 15
       System.out.println(names[i] + "Sits in seat #"+ seatNumbers [i]);
       //Each student (name) will be assigned a seat number
       
