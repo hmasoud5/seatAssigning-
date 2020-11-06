@@ -9,6 +9,9 @@ class Main {
     String[] names = new String[15];
     // Use a For loop to loop through the String array
     for (int i = 0; i < names.length; i++) {
+      //The seats start at the index of zero
+      //The index is less than the length of names which is 15
+      //If the seat numbers is less than the length of names (15) then you add +1 unless it is 15 < 15 you STOP
       System.out.println("Enter you name");
       names[i] = scan.next();
       //For every name that is entered a new name will print out all the way up to 15
