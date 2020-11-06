@@ -10,7 +10,7 @@ class Main {
     // Use a For loop to loop through the String array
     for (int i = 0; i < names.length; i++) {
       System.out.println("Enter you name");
-      //For every 
+      //For every name that is entered a new name will print out all the way up to 15
       names[i] = scan.next();
     }
     int i = 0;
