@@ -10,12 +10,13 @@ class Main {
     // Use a For loop to loop through the String array
     for (int i = 0; i < names.length; i++) {
       System.out.println("Enter you name");
-      //For every name that is entered a new name will print out all the way up to 15
       names[i] = scan.next();
+      //For every name that is entered a new name will print out all the way up to 15
     }
     int i = 0;
     while (i < names.length) {
       System.out.println(names[i] + "Sits in seat #"+ seatNumbers [i]);
+      //Each student (name) will be assigned a seat number
       
     }
 
